@@ -53,76 +53,7 @@
 					]
 				}
 			},
-			"response": [
-				{
-					"id": "c987e01e-bb96-4467-8bbf-97d4a93d4c82",
-					"name": "New Request",
-					"originalRequest": {
-						"method": "POST",
-						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": "{\"username\":\"test456\",\"password\":\"test\"}",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": {
-							"raw": "{{baseURL}}/register",
-							"host": [
-								"{{baseURL}}"
-							],
-							"path": [
-								"register"
-							]
-						}
-					},
-					"status": "Created",
-					"code": 201,
-					"_postman_previewlanguage": "plain",
-					"header": [
-						{
-							"key": "X-Powered-By",
-							"value": "Express",
-							"uuid": "b18ba89d-8cdb-4db2-9ba8-411ebfd1a60e"
-						},
-						{
-							"key": "Content-Type",
-							"value": "text/plain; charset=utf-8",
-							"uuid": "75a18a3f-df83-4dfc-9924-8697d498a59f"
-						},
-						{
-							"key": "Content-Length",
-							"value": "7",
-							"uuid": "3b886941-cc3d-4c4d-951e-8f384150aec6"
-						},
-						{
-							"key": "ETag",
-							"value": "W/\"7-rM9AyJuqT6iOan/xHh+AW+7K/T8\"",
-							"uuid": "f3ac2e31-2869-4ed8-8251-ca840e7ffa2c"
-						},
-						{
-							"key": "Date",
-							"value": "Thu, 02 Nov 2023 14:57:25 GMT",
-							"uuid": "934857e3-379b-4805-aa3d-4a6841b92b8e"
-						},
-						{
-							"key": "Connection",
-							"value": "keep-alive",
-							"uuid": "5d89af16-91c2-4dc7-96b3-2af2da383da8"
-						},
-						{
-							"key": "Keep-Alive",
-							"value": "timeout=5",
-							"uuid": "c2572cb8-ec95-4024-9ddb-34179c15faa4"
-						}
-					],
-					"cookie": [],
-					"body": "Created"
-				}
-			]
+			"response": []
 		},
 		{
 			"name": "Create user Copy",
@@ -171,76 +102,7 @@
 					]
 				}
 			},
-			"response": [
-				{
-					"id": "df9f59cb-440e-4a76-b1ec-38e7d0c72cca",
-					"name": "New Request",
-					"originalRequest": {
-						"method": "POST",
-						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": "{\"username\":\"test456\",\"password\":\"test\"}",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": {
-							"raw": "{{baseURL}}/register",
-							"host": [
-								"{{baseURL}}"
-							],
-							"path": [
-								"register"
-							]
-						}
-					},
-					"status": "Created",
-					"code": 201,
-					"_postman_previewlanguage": "plain",
-					"header": [
-						{
-							"key": "X-Powered-By",
-							"value": "Express",
-							"uuid": "fadf9aac-7468-4530-a46a-13b1cffbeea8"
-						},
-						{
-							"key": "Content-Type",
-							"value": "text/plain; charset=utf-8",
-							"uuid": "709d3a1f-70f2-4d3b-be2e-1e20cc22812e"
-						},
-						{
-							"key": "Content-Length",
-							"value": "7",
-							"uuid": "ad7a1b9c-9b5d-4d57-957b-322cc4bfea53"
-						},
-						{
-							"key": "ETag",
-							"value": "W/\"7-rM9AyJuqT6iOan/xHh+AW+7K/T8\"",
-							"uuid": "c014e18f-e8cc-4daf-9797-d2e8f00ee156"
-						},
-						{
-							"key": "Date",
-							"value": "Thu, 02 Nov 2023 14:57:25 GMT",
-							"uuid": "6289abbb-fd21-4ff6-9607-df8d422a61b7"
-						},
-						{
-							"key": "Connection",
-							"value": "keep-alive",
-							"uuid": "c906b340-6e42-476f-931e-b0a239422043"
-						},
-						{
-							"key": "Keep-Alive",
-							"value": "timeout=5",
-							"uuid": "2da44679-e549-4c31-a083-1d057a07c2f5"
-						}
-					],
-					"cookie": [],
-					"body": "Created"
-				}
-			]
+			"response": []
 		},
 		{
 			"name": "user registered without password",
